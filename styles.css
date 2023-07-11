@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap");
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -2;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+header {
+  background: linear-gradient(to top, #e6ba80b8 0%, #eacda3b5 100%);
+}
+header .header-nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+header .header-nav-section img {
+  width: 9%;
+}
+header .header-nav-section .header-nav-lists {
+  display: flex;
+}
+header .header-nav-section .header-nav-lists A {
+  text-decoration: none;
+  color: #402a23;
+  font-family: "Lobster", cursive;
+}
+header .header-nav-section .header-nav-lists .header-nav-list {
+  list-style: none;
+  margin: 0 1.5rem;
+}
+header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 5rem;
+}
+header .header-content .header-content-description {
+  width: 550px;
+  margin: 0 9rem 0 0;
+}
+header .header-content .header-content-description h1 {
+  font-family: "Lobster Two", cursive;
+  font-size: 48px;
+  color: #402a23;
+}
+header .header-content .header-content-description p {
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+  color: #402a23;
+}
+header .header-content .header-content-description button {
+  border: none;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 30px;
+  background: #624a438e;
+  color: #f8cd99;
+  font-size: 18px;
+  font-family: "Lobster", cursive;
+  cursor: pointer;
+}
+header .header-content .header-content-description button:hover {
+  background: #f8cd9980;
+  color: #624a43;
+}
+header .header-content .header-content-description button:active {
+  transform: translateY(4px);
+}
+header .header-content img {
+  width: 30%;
+  border-radius: 30px;
+}
+.menu-content {
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.menu-content h1 {
+  font-family: "Lobster", cursive;
+  margin: 0;
+  text-align: center;
+  padding: 1rem 0;
+  color: #402a23;
+}
+.menu-content .menu-content-info .menu-content-lists {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0 5rem 6rem;
+  margin-bottom: 0;
+}
+.menu-content .menu-content-info .menu-content-lists .menu-content-list {
+  list-style: none;
+}
+.menu-content .menu-content-info .menu-content-lists .menu-content-list img {
+  width: 50%;
+}
+.menu-content .menu-content-info .menu-content-lists .menu-content-list p {
+  width: 200px;
+  font-family: "Lobster Two", cursive;
+  font-size: 15px;
+  color: #402a23;
+}
+.section-quote {
+  background: linear-gradient(
+    87.4deg,
+    rgba(255, 241, 165, 0.847) 1.9%,
+    rgba(200, 126, 76, 0.878) 49.7%,
+    rgba(83, 54, 54, 0.871) 100.5%
+  );
+}
+.section-quote .quote {
+  padding: 7rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+  color: #402a23;
+}
+.contact-us {
+  background: linear-gradient(
+    110.3deg,
+    rgba(238, 179, 123, 0.907) 8.7%,
+    rgba(216, 102, 77, 0.9) 47.5%,
+    rgba(114, 43, 54, 0.922) 89.1%
+  );
+}
+.contact-us .border {
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.contact-us .border .contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: radial-gradient(
+    755px at 10.1% 95.3%,
+    rgb(242, 188, 141) 0%,
+    rgb(242, 159, 141) 100.2%
+  );
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 80px;
+}
+.contact-us .border .contact-container p {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  color: #402a23;
+}
+.contact-us .border .contact-container button {
+  padding: 1rem;
+  border: none;
+  border-radius: 30px;
+  background: #624a438e;
+  color: #f8cd99;
+  font-size: 18px;
+  font-family: "Lobster", cursive;
+  cursor: pointer;
+}
+.contact-us .border .contact-container button:hover {
+  background: #f8cd9980;
+  color: #624a43;
+}
+.contact-us .border .contact-container button:active {
+  transform: translateY(4px);
+}
+footer {
+  background: #854836;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Lobster", cursive;
+}
+@media screen and (max-width: 970px) {
+  header .header-nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+  }
+  header .header-nav-section img {
+    width: 23%;
+  }
+  header .header-nav-section .header-nav-lists {
+    display: block;
+  }
+  header .header-content {
+    display: block;
+  }
+  header .header-content .header-content-description {
+    width: 500px;
+    position: relative;
+    left: 7%;
+    padding: 1rem;
+  }
+  header .header-content .header-content-description h1 {
+    font-size: 30px;
+  }
+  header .header-content .header-content-description p {
+    font-size: 15px;
+    width: 300px;
+  }
+  header .header-content img {
+    width: 80%;
+    margin: 2rem 0 0 0;
+    position: relative;
+    left: 11%;
+  }
+  .menu-content h1 {
+    font-size: 30px;
+  }
+  .menu-content .menu-content-info .menu-content-lists {
+    display: block;
+  }
+  .menu-content .menu-content-info .menu-content-lists .menu-content-list img {
+    width: 60%;
+  }
+  .menu-content .menu-content-info .menu-content-lists .menu-content-list p {
+    width: 160px;
+  }
+  .section-quote .quote {
+    font-size: 15px;
+  }
+  .contact-us .border .contact-container {
+    display: block;
+    justify-content: center;
+    border-radius: 0%;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    right: 8%;
+  }
+  .contact-us .border .contact-container p {
+    font-size: 15px;
+  }
+  .contact-us .border .contact-container button {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
